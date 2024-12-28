@@ -156,9 +156,9 @@ if(mysqli_num_rows($query)==0)
       <td><?=$detail['hp_pemesan']?></td>
       <td><?=$detail['waktu_wisata']?></td>
       <td><?=$detail['total_tagihan']?></td>
-      <td><a href="invoice.php?id_pemesanan=<?=$detail['id_pemesanan']?>">Invoice</a> 
+      <td><a class="text-warning" href="invoice.php?id_pemesanan=<?=$detail['id_pemesanan']?>">Invoice</a> 
       <a href="">Edit</a> 
-      <a href="hapus.php?id_pemesanan=<?=$detail['id_pemesanan']?>">Hapus</a></td>
+      <a class="text-danger" href="hapus.php?id_pemesanan=<?=$detail['id_pemesanan']?>">Hapus</a></td>
     </tr>
         <?php
         $co++;

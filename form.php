@@ -108,6 +108,11 @@
           Contact
          </a>
         </li>
+        <li class="nav-item">
+         <a class="nav-link" href="daftar.php">
+          Daftar Pemesanan
+         </a>
+        </li>
        </ul>
       </div>
      </div>
